@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.pentaho</groupId>
   <artifactId>my-pentaho-project</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <parent>
@@ -49,7 +49,7 @@
     <connection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</connection>
     <url>scm:git:git@github.com:${github.user}/${project.artifactId}.git</url>
     <developerConnection>scm:git:git@github.com:${github.user}/${project.artifactId}.git</developerConnection>
-    <tag>my-pentaho-project-1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
     
   <dependencies>
